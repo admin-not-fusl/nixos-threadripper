@@ -93,7 +93,6 @@
   environment.systemPackages = with pkgs; [
     pavucontrol      # the honest view of sinks/sources/profiles
     qpwgraph         # patchbay — needed with the pro-audio profile
-    helvum           # simpler patchbay
 
   ];
 
