@@ -4,6 +4,8 @@
     usbutils
     file
     unzip
+    btop
+    fastfetch
 
   ];
 
