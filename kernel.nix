@@ -4,7 +4,7 @@
   boot.loader.systemd-boot.configurationLimit = 20;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  boot.kernelPackages = pkgs.linuxPackages_7_1;
+  boot.kernelPackages = pkgs.linuxPackages_6_18;
   boot.kernelParams = [
       # amd
       "amd_pstate=active"
