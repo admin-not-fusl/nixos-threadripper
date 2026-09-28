@@ -20,7 +20,7 @@
     powerManagement.finegrained = false;    # laptop-only feature
     nvidiaSettings = true;                  # nvidia-settings GUI
     nvidiaPersistenced = false;             # must be off so the A4500 can unbind to a VM
-    package = config.boot.kernelPackages.nvidiaPackages.latest;
+    package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
 
   # Environment hints so apps pick the NVIDIA paths on Wayland.
