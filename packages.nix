@@ -1,5 +1,5 @@
 {config, pkgs, ...}:{
-  enviorment.systemPackages = with pkgs; [
+  environment.systemPackages = with pkgs; [
     pciutils
     usbutils
     file
