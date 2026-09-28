@@ -15,6 +15,7 @@
     ./unfree.nix
     ./settings.nix
     ./desktop.nix
+    ./packages.nix
 
   ];
 
