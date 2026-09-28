@@ -21,7 +21,12 @@
 
     ];
 
-    boot.kernelModules = [ "vfio" "vfio_pci" "vfio_iommu_type1" ];
+    #boot.kernelModules = [ "vfio" "vfio_pci" "vfio_iommu_type1" ];
+    boot.initrd.kernelModules = [ "vfio_pci" "vfio" "vfio_iommu_type1" ];
+    boot.kernelParams = [
+      # ...your existing ones...
+      "vfio-pci.ids=10de:2232,10de:1aef"
+    ];
 
     boot.kernel.sysctl."vm.swappiness" = 10;
 
